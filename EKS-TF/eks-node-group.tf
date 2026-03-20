@@ -11,7 +11,7 @@ resource "aws_eks_node_group" "eks-node-group" {
     min_size     = 1
   }
 
-  instance_types = ["t3.medium"]
+  instance_types = ["t3.small"]
   disk_size      = 20
 
   depends_on = [
