@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # For Ubuntu 22.04
 # Intsalling Java
 sudo apt update
